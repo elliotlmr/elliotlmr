@@ -23,6 +23,7 @@ const animatedNavLink = keyframes`
 `;
 
 const NavContainer = styled.nav`
+  z-index: 100;
   animation: ${animatedOpening} 0.3s ease-in-out;
   display: ${(props) => (props.isOpened ? "flex" : "none")};
   flex-direction: row;

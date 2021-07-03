@@ -15,6 +15,7 @@ const buttonAnimation = keyframes`
 `;
 
 const Button = styled.img`
+  z-index: 100;
   transition: all 0.2s ease-in-out;
   position: absolute;
   right: 20px;
